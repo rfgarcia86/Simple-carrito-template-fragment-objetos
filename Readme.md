@@ -1,4 +1,4 @@
-# Ejemplo de un carrito de compras simple, haciendouso de objetos y templates.
+# Ejemplo de un carrito de compras simple, haciendo uso de objetos y templates y bootstrap para el css.
 
 ## Todo con fines educativos
 
