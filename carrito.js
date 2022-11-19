@@ -1,4 +1,4 @@
-const carrito = document.getElementById("carrito")
+/* const carrito = document.getElementById("carrito")
 const carritoTemplate = document.getElementById("carritoTemplate")
 const carritoFragmento = document.createDocumentFragment()    // puedo poner = new DocumentFragment() 
 const botonesAgregar = document.querySelectorAll("article button")
@@ -38,9 +38,19 @@ const pintarCarrito = () =>{
 
     carrito.appendChild(carritoFragmento)
 }
+ */
+const contenedor = document.querySelector(".container")
 
+contenedor.addEventListener("click",e =>{
+    if(e.target.id === "padre"){
+        console.log("click en Padre")
+    }
 
+    if(e.target.matches("#hijo")){
+        console.log("click en Hijo")
+    }
 
-
-
-
+    if(e.target.dataset["div"] === "divnieto"){
+        console.log("click en Nieto")
+    }
+})

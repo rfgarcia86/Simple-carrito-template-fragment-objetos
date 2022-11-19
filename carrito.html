@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
-    <main class="container mt-5">
+<!--     <main class="container mt-5">
         <div class="row text-center">
             <article class="col-sm-3 mb-3">
                 <div class="card">
@@ -67,8 +67,19 @@
             <span class="badge bg-primary rounded-pill"></span>
         </li>
     </template>
+ -->
 
-
+    <div class="container">
+        <div id="padre" data-div="divpadre" class="border border-primary border-5 py-5 m-3">
+            Lorem, ipsum dolor
+            <div id="hijo" data-div="divhijo" class="border border-secondary border-5 py-5 m-3">
+                Lorem, ipsum dolor
+                <div id="nieto" data-div="divnieto" class="border border-danger border-5 py-5 m-3">
+                    Lorem, ipsum dolor
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="carrito.js"></script>
 </body>
 </html>
